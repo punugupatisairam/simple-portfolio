@@ -1,0 +1,377 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.mainnavbar {
+    display: flex;
+    justify-content: space-around !important;
+    background-color: lightskyblue;
+    /* position: fixed; */
+    height: 60px;
+    width: 100%; /* Ensure navbar spans the full width */
+}
+
+.navitem {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    /* Set line-height equal to navbar height */
+    /* Use percentage for responsive padding */
+    /* padding-top: 15px; */
+   padding: 10px;
+   
+}
+
+.navitem:hover {
+    background-color: blueviolet;
+    border-radius: 25px;
+    /* background-size: 60px; */
+
+}
+
+
+#headersection{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  
+
+}
+.role{
+    text-align: center;
+}
+.profileimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* align-items: center; */
+    margin: auto;  
+}
+.profileimgdiv{
+    display: flex;
+    align-items: center;
+}
+.headprofile{
+    margin-top: 7%;
+}
+
+
+/*Contact me segment */
+.contactmename{
+    padding-top: 60px;
+}
+#h1c{
+    text-align: center;
+    color: rgb(15, 17, 19);
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.headerc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-dividerc{
+    width: 100%;
+    height: 6px;
+    max-width: 120px;
+    background-color: black;
+}
+.right-dividerc{
+    width: 100%;
+    height: 6px;
+    max-width: 120px;
+    background-color: black;
+}
+.imgc{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+}
+.formsc{
+    text-align: center;
+    margin-top: 100px;
+
+    
+}
+.fieldsetc{
+    width: 32%;
+    height: 60%;
+    margin-left: 30%;
+    margin-top: -5%;
+}
+.buttonc{
+    background-color: lightskyblue;
+    border-radius: 3px;
+    font-size: large;
+    margin: 20px;
+
+}
+.formtagc{
+    margin-top: 50px;
+}
+
+.child1c{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    margin-left:100px ;
+    width: 200px;
+    font-size: 20px;
+}
+.child2c{
+    margin-right:100px ;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+            }
+.parentc{
+    display: flex;
+    justify-content: space-between;
+}
+#contactdiv{
+    background-color: black;
+    padding-bottom: 20px;   
+}
+
+ /* footer section */
+.parentf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 40px; */
+    background-color: #1a252f;
+    height: 300px;
+    
+}
+.footerdiv{
+   
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 350px;
+}
+
+.footimg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footimg>img:hover{
+    background-color: white;
+    border-radius: 5px;
+
+}
+.copyright{
+    
+    display: flex;
+    justify-content: center;
+    background-color: black; 
+    height: 50px;
+    padding: 15px;
+}
+.uparrow{
+    position: fixed;
+    display: inline-block;
+    bottom:20px;
+    right:20px;
+    font-size: 50px;   
+  
+}
+.uparrow a{
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.child1f{
+    padding: 30px;
+}
+img{
+    width: 40px;
+}
+
+
+.imgcss{
+    width :150px;
+    /* padding: 30px; */
+    margin: 65px;
+    /* margin-left: 300px; */
+    /* margin-top: 30px; */
+    
+}
+.imgbootstrap{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 70px;
+    /* height: 150px; */
+    background-color: aqua;
+    padding: 20px;
+}
+.imghtml{
+    width: 150px;
+    margin: 65px;
+
+    /* margin-left: 100px; */
+    /* margin-top: 30px; */
+
+}
+.imggithub{
+    width: 150px;
+    border-radius: 50%;
+    margin: 65px;
+}
+.imgjs{
+    width: 150px;
+    height: 150px;
+    margin: 65px;
+
+    /* margin-left: 300px; */
+    /* margin-top: 30px; */
+    border-radius: 50%;
+
+}
+
+.imgreact{
+    width: 150px;
+    margin: 65px;
+
+    /* margin-top: 30px; */
+    /* margin-left: 100px; */
+}
+.dname{
+ text-align: center;
+ 
+}
+.imgdiv1{
+    background-color:aqua;
+    margin-left: 10%;
+    /* width: 200px; */
+    margin-right:  20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.imgdiv2{
+    background-color: limegreen;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.imgdiv3{
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 45px;
+}
+.imgdiv4{
+    background-color: blueviolet;
+    margin-left: 10%;
+    margin-right:  20px;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.imgdiv5{
+    background-color: darkmagenta;
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.imgdiv6{
+        background-color: palevioletred;
+        margin-top: 50px;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        margin-left: 45px;
+}
+
+.imgdiv1:hover{
+    
+    background-color:blue;
+
+}
+.imgdiv2:hover{
+    
+    background-color:red;
+
+}
+.imgdiv3:hover{
+    
+    background-color:white;
+
+}
+.imgdiv4:hover{
+    
+    background-color:orange;
+
+}
+.imgdiv5:hover{
+    
+    background-color:brown;
+
+}
+.imgdiv6:hover{
+    
+    background-color:grey;
+
+}
+#skills{
+    background-color: black;
+    /* margin-bottom: 50px; */  
+    padding-bottom: 50px;
+    
+}
+.projectsname{
+    padding-top: 60px;
+}
+.projects{
+    background-color:lightsalmon
+}
+.projectsdiv{
+    padding-left: 200px;
+}
+#projectsmdiv{
+    background-color:black;
+}
+.ecom{
+    width: 400px;
+}
+.todo{
+    width: 400px;
+}
+.timer{
+    width: 400px;
+
+}
+.portf{
+    width: 400px;
+}
+.para{
+    text-align: justify;
+}
+.cont{
+    height: 350px;
+    /* line-height: 30px; */
+    /* letter-spacing: 5px; */
+}
+.contacttext{
+    line-height: 50px;
+}
